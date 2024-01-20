@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsla(228, 45%, 44%, 0.2);
+}
+
+h1, p {
+    color: white;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.h1 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-family: Poppins;
+    font-size: 17px;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 340px 340px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 115px;
+}
+
+.img {
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.profil {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin-left: 12px;
+}
+
+.dvinutil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+.textwhite {
+    color: black;
+    font-family: Poppins;
+    width: 151px;
+}
+
+.infowhite {
+    color: black;
+    font-family: Poppins;
+    width: 151px;
+    opacity: 0.6;
+}
+
+.violet {
+    background-color: blueviolet;
+    border-radius: 10px;
+    grid-column: 1/3;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.gris {
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.grandwhite {
+    background-color: rgba(240, 248, 255, 0.49);
+    border-radius: 10px;
+    grid-row: 1 / 3;
+    grid-column: 4 / 5;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 14px;
+    padding-bottom: 30px;
+}
+
+.litlewhite {
+    background-color: rgba(240, 248, 255, 0.49);
+    border-radius: 10px;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 14px;
+    padding-bottom: 30px;
+}
+
+.black {
+    background-color: black;
+    border-radius: 10px;
+    grid-column: 2 / 4;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 14px;
+    padding-bottom: 30px;
+}
+
+.blaze {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Poppins;
+    width: 171px;
+}
+
+.info {
+    opacity: 0.5;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.texte {
+    opacity: 0.6;
+    font-family: Poppins;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.minitextwhite {
+    color: black;
+    opacity: 0.4;
+} 
+
+.gtextwhite {
+    color: black;
+    margin-bottom: 27px;
+    font-family: Poppins;
+}
+
+
+#guillemets {
+    position:absolute;
+    z-index: 0;
+    height: 161px;
+    right: 45px;
+    top: 4px;
+}
+
+@media screen and (max-width: 844px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        margin: 44px;
+    }
+    
+}
