@@ -1,6 +1,7 @@
 # Frontend Mentor - Testimonials grid section
 
-![Uploading Screenshot 2024-01-24 at 10-14-06 Frontend Mentor Challenge Name Here.png…]()
+![Screenshot 2024-01-24 at 10-13-37 Frontend Mentor Stats preview card component](https://github.com/Zooom-w/Front-End-Mentor-2/assets/148760503/69e8986e-5339-4b91-ac48-66b14b6eaf20)
+
 
 
 ## Welcome! 👋
