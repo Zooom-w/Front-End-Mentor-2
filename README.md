@@ -1,6 +1,7 @@
 # Frontend Mentor - Testimonials grid section
 
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+![Uploading Screenshot 2024-01-24 at 10-14-06 Frontend Mentor Challenge Name Here.png…]()
+
 
 ## Welcome! 👋
 
